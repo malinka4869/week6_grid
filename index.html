@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/figmastyle.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
       rel="stylesheet"
-      <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
-      rel="stylesheet"
-    />
     />
   </head>
   <body>
     <div class="all">
-      <div class="circle">
-        <img src="assets/images/Wordpress_Transparent.png" alt="circle" />
+      <div class="img-circle">
+        <img
+          class="img-circle__pic"
+          src="assets/images/Wordpress_Transparent.png"
+          alt="circle"
+        />
       </div>
-      <header>
-        <img class="logo" src="assets/images/LOGO.png" alt="logo" />
+      <header class="head-container">
+        <div class="img-logo">
+          <img class="img-logo__pic" src="assets/images/LOGO.png" alt="logo" />
+        </div>
         <nav class="nav">
           <a href="#">About Us</a>
           <a href="#">For Companies</a>
@@ -30,20 +32,36 @@
           <a href="#">Blog</a>
         </nav>
         <div class="headbuttons">
-          <button class="hire">HIRE A TALENT</button>
-          <button class="headapply">APPLY AS A TALENT</button>
+          <button class="headbuttons__hire">HIRE A TALENT</button>
+          <button class="headbuttons__apply">APPLY AS A TALENT</button>
+        </div>
+        <div class="burger">
+          <img
+            src="assets/images/hamburger-menu-more-svgrepo-com.svg"
+            alt="menu"
+          />
         </div>
       </header>
       <div class="text">
-        <h1>Welcome to your next growth opportunity.</h1>
-        <section>
+        <h1 class="text__main">Welcome to your next growth opportunity.</h1>
+        <section class="text__desc">
           Get connected with full time, freelance and remote jobs that are
           suited just for you and meet your prerequisite.
         </section>
         <button class="apply">APPLY AS A TALENT</button>
       </div>
-
-      <img class="man" src="assets/images/featured-image.png" alt="man" />
+      <div class="img-main">
+        <img
+          class="img-main__man"
+          src="assets/images/featured-image.png"
+          alt="man"
+        />
+        <img
+          class="img-main__girl"
+          src="assets/images/portraitGirl.png"
+          alt="girl"
+        />
+      </div>
     </div>
   </body>
 </html>
